@@ -1,11 +1,11 @@
 export enum AccountTypes {
-  checking = "CHECKING",
-  investment = "INVESTMENT",
+  checking = 'CHECKING',
+  investment = 'INVESTMENT',
 }
 
 export enum InvestmentTypes {
-  individual = "INDIVIDUAL",
-  corporate = "CORPORATE",
+  individual = 'INDIVIDUAL',
+  corporate = 'CORPORATE',
 }
 
 export type BankAccount = {

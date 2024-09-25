@@ -4,33 +4,33 @@
     {
       "ownerId": 1,
       "id": 111,
-      "balance": 1000.00,
+      "balance": 1000,
       "type": "CHECKING"
     },
     {
       "ownerId": 1,
       "id": 222,
-      "balance": 10000.00,
+      "balance": 10000,
       "type": "INVESTMENT",
       "investmentType": "INDIVIDUAL"
     },
     {
       "ownerId": 1,
       "id": 333,
-      "balance": 100000.00,
+      "balance": 100000,
       "type": "INVESTMENT",
       "investmentType": "CORPORATE"
     },
     {
       "ownerId": 2,
       "id": 444,
-      "balance": 100.00,
+      "balance": 100,
       "type": "CHECKING"
     },
     {
       "ownerId": 2,
       "id": 555,
-      "balance": 100.00,
+      "balance": 100,
       "type": "INVESTMENT",
       "investmentType": "INDIVIDUAL"
     }

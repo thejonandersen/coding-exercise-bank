@@ -2,19 +2,23 @@
   "name": "coding-exercise-bank",
   "version": "1.0.0",
   "description": "this is a coding exercise, not for use in production (duh)",
-  "main": "src/index.ts",
   "scripts": {
-    "main": "npx ts-node src/index.ts",
-    "test": "npx jest"
+    "test": "npx jest -i",
+    "test-watch": "npx jest --watchAll -i"
   },
   "author": "Jon Andersen",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.6.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0",
     "jest": "^29.7.0",
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.7.0"
   }
 }
